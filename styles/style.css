@@ -1,0 +1,49 @@
+/* TAGS */
+body{
+    background-image: url("/images/background2.jpg");
+    margin: 5px;
+}
+
+/* CLASSES */
+
+.nav {
+    margin: none;
+}
+.nav ul{
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    margin-right: 70px;
+}
+
+.nav ul li{ 
+    height: 0 auto;   
+}
+
+.nav ul li a{
+    margin: 12px 15px;
+    text-decoration: none;
+    font-family: Lucida, sans-serif;
+    font-size: 25px;
+    color: #ABAFBE;
+}
+
+.nav ul li a:hover{ 
+    color: white;
+    background-color: #6D7491;
+}
+
+#nome {
+    text-align: center;
+    color:#6D7491;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: Lucida, sans-serif;
+}
+
+.content{
+    text-align: center;
+    color:#6D7491;
+    font-size: 20px;
+    margin-top: 50px;
+}
